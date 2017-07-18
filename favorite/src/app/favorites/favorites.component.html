@@ -1,3 +1,1 @@
-<p>
-  favorites works!
-</p>
+<div class="glyphicon glyphicon-star-empty" [ngClass]="{ 'glyphicon-star': isSelected, 'glyphicon-star-empty': !isSelected}" (click)="isSelected = !isSelected"></div>
